@@ -1,0 +1,55 @@
+/* styles/Home.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0070f3;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.signInButton {
+  background-color: #ffffff;
+  color: #0070f3;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signInButton:hover {
+  background-color: #eaeaea;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 50px 20px;
+}
+
+.hero {
+  max-width: 600px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #0070f3;
+  color: white;
+}
